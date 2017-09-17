@@ -1,0 +1,6 @@
+ 1. 使用了babel-cli依赖包做转化
+```
+npm install
+npm run build
+```
+ 2. 打开index.html
