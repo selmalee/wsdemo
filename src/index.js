@@ -13,10 +13,9 @@ socket.on('leave', (data) => {
 });
 
 document.getElementById('sendBtn').onclick = function () {
-	let txt = document.getElementById('sendTxt').value;
-	console.log(txt)
+	let txt = document.getElementById('sendTxt').value
 	if (txt) {
-		socket.emit('send', txt);
+		socket.emit('send', txt)
 	}
 };
 
